@@ -43,29 +43,29 @@
 //     }
 // }
 
-class Task1 extends Thread {
+//class Task1 extends Thread {
+//
+//    public void run() {
+//        for (int i = 1; i <= 225; i++) {
+//            System.out.println("Chatting With Rohan");
+//        }
+//    }
+//}
+//
+//class Task2 extends Thread {
+//
+//    public void run() {
+//        for (int i = 1; i <= 225; i++) {
+//            System.out.println("Chay Pi Rahe hai");
+//        }
+//    }
+//}
 
-    public void run() {
-        for (int i = 1; i <= 225; i++) {
-            System.out.println("Chatting With Rohan");
-        }
-    }
-}
-
-class Task2 extends Thread {
-
-    public void run() {
-        for (int i = 1; i <= 225; i++) {
-            System.out.println("Chay Pi Rahe hai");
-        }
-    }
-}
-
-public class Manager {
-    public static void main(String[] args) {
-        Task1 t1 = new Task1();
-        Task2 t2 = new Task2();
-        t1.start(); // start first thread
-        t2.start(); // start second thread
-    }
-}
+//public class Manager {
+//    public static void main(String[] args) {
+//        Task1 t1 = new Task1();
+//        Task2 t2 = new Task2();
+//        t1.start(); // start first thread
+//        t2.start(); // start second thread
+//    }
+//}

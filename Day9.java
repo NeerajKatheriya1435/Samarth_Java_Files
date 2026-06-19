@@ -17,36 +17,36 @@
 //    }
 //}
 
-//class MyThread extends Thread{
-//    MyThread(String name){
-//        super(name);
-//    }
-//
-//    @Override
-//    public void run() {
-//        for (int i = 1; i <= 225; i++) {
-//            System.out.println("Chatting with Rohan");
-//        }
-//    }
-//}
+class MyThread extends Thread{
+    MyThread(String name){
+        super(name);
+    }
 
-import java.util.Scanner;
+    @Override
+    public void run() {
+        for (int i = 1; i <= 225; i++) {
+            System.out.println("Chatting with Rohan"+getName());
+        }
+    }
+}
+
+//import java.util.Scanner;
 
 
 
 public class Day9 {
 
-     static int divideNum(){
-        Scanner sc=new Scanner(System.in);
+//     static int divideNum(){
+//        Scanner sc=new Scanner(System.in);
+////
+//        System.out.println("Enter num1: ");
+//        int a=sc.nextInt();
 //
-        System.out.println("Enter num1: ");
-        int a=sc.nextInt();
-
-        System.out.println("Enter num2: ");
-        int b=sc.nextInt();
-//         System.out.println(5/0);
-        return  (a/b);
-    }
+//        System.out.println("Enter num2: ");
+//        int b=sc.nextInt();
+////         System.out.println(5/0);
+//        return  (a/b);
+//    }
     public static void main(String[] args) throws ArithmeticException {
 
 //        Task1 t1=new Task1();
@@ -89,11 +89,11 @@ public class Day9 {
 //            System.out.println("Hello good");
 //        });
 //        thread.start();
-        try {
-            System.out.println(divideNum());
-        } catch (Exception e) {
-            System.out.println("Can not divide by Zero");
-        }
-        System.out.println("This is very very important");
+//        try {
+//            System.out.println(divideNum());
+//        } catch (Exception e) {
+//            System.out.println("Can not divide by Zero");
+//        }
+//        System.out.println("This is very very important");
     }
 }
